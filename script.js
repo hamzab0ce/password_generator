@@ -16,26 +16,30 @@ const lengthInput = document.getElementById("length");
 const passwordDisplay = document.getElementById("password");
 const generateButton = document.getElementById("generate");
 const copyButton = document.getElementById("copy");
+const generateAnotherButton = document.getElementById("generate-another");
 
 // Evento para generar contraseñas
-generateButton.addEventListener("click", () => {
+function handleGeneratePassword() {
   const length = parseInt(lengthInput.value);
-  if (length >= 6 && length <= 64) {
+  if (length >= 5 && length <= 128) {
     const password = generatePassword(length);
     passwordDisplay.textContent = password;
   } else {
-    passwordDisplay.textContent = "La longitud debe estar entre 6 y 64.";
+    passwordDisplay.textContent = "La longitud debe estar entre 5 y 128.";
   }
-});
+}
+
+generateButton.addEventListener("click", handleGeneratePassword);
+generateAnotherButton.addEventListener("click", handleGeneratePassword);
 
 // Evento para copiar contraseñas
 copyButton.addEventListener("click", () => {
   const password = passwordDisplay.textContent;
-  if (password && password !== "Haz clic en \"Generar Contraseña\"") {
+  if (password && password !== "La longitud debe estar entre 5 y 128.") {
     navigator.clipboard.writeText(password).then(() => {
       alert("¡Contraseña copiada al portapapeles!");
     });
   } else {
-    alert("Primero genera una contraseña.");
+    alert("Primero genera una contraseña válida.");
   }
 });
