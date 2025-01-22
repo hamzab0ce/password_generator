@@ -16,7 +16,7 @@ Para usar el generador de contraseñas, simplemente entra a la siguiente página
 
 ## Captura de Pantalla
 
-![Captura del Generador de Contraseñas](https://via.placeholder.com/800x400?text=Captura+del+Generador+de+Contrasenas)
+![Captura del Generador de Contraseñas](https://raw.githubusercontent.com/hamzab0ce/password_generator/refs/heads/main/image.jpg)
 
 ## Instalación y Despliegue (Opcional)
 
