@@ -14,24 +14,24 @@ function generatePassword(length) {
 // Elementos del DOM
 const lengthInput = document.getElementById("length");
 const passwordDisplay = document.getElementById("password");
-const generateButton = document.getElementById("generate");
-const copyButton = document.getElementById("copy");
+const generateButton = document.getElementById("generate-btn");
+const copyButton = document.getElementById("copy-btn");
 
 // Evento para generar contraseñas
 generateButton.addEventListener("click", () => {
   const length = parseInt(lengthInput.value);
   if (length >= 6 && length <= 64) {
     const password = generatePassword(length);
-    passwordDisplay.textContent = password;
+    passwordDisplay.value = password; // Usamos `value` en lugar de `textContent`
   } else {
-    passwordDisplay.textContent = "La longitud debe estar entre 6 y 64.";
+    alert("La longitud debe estar entre 6 y 64.");
   }
 });
 
 // Evento para copiar contraseñas
 copyButton.addEventListener("click", () => {
-  const password = passwordDisplay.textContent;
-  if (password && password !== "Haz clic en \"Generar Contraseña\"") {
+  const password = passwordDisplay.value; // Usamos `value` en lugar de `textContent`
+  if (password) {
     navigator.clipboard.writeText(password).then(() => {
       alert("¡Contraseña copiada al portapapeles!");
     });
