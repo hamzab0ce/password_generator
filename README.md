@@ -20,6 +20,6 @@ Para usar el generador de contraseñas, simplemente entra a la siguiente página
 
 
 
-## by  **[hamzab0ce](https://github.com/hamzab0ce)**. 
+## by  **[hamzab0ce](https://github.com/hamzab0ce)**
 
 ---
