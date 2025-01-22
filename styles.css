@@ -2,12 +2,12 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #333;
+  color: white;
 }
 
 /* Fondo decorativo */
@@ -16,49 +16,112 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
-  filter: brightness(0.95);
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
 }
 
 /* Contenedor principal */
 .container {
-  background: white;
+  background: #2b2f3a;
   border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  padding: 40px 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 20px 30px;
   text-align: center;
   max-width: 400px;
   width: 90%;
 }
 
-/* Títulos */
-h1 {
-  font-size: 32px;
+/* Pestañas */
+.tabs {
+  display: flex;
+  justify-content: space-around;
   margin-bottom: 20px;
-  color: #007bff;
-  font-weight: 600;
 }
 
-/* Etiquetas e inputs */
-label {
+.tab {
+  background: #3a3f4b;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background: #007bff;
+}
+
+.tab:hover {
+  background: #0056b3;
+}
+
+/* Cuadro de salida */
+.output-box {
+  background: #1f232d;
+  padding: 15px 20px;
+  border: 1px solid #3a3f4b;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#password {
   font-size: 18px;
+  font-weight: 600;
+  color: #00ffcc;
+  word-break: break-word;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.actions img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Opciones */
+.options {
+  text-align: left;
+}
+
+label {
+  font-size: 14px;
   font-weight: 500;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 input[type="number"] {
-  width: 80px;
+  width: 100%;
   padding: 8px;
   font-size: 16px;
-  border: 2px solid #ddd;
+  border: 2px solid #3a3f4b;
   border-radius: 8px;
-  text-align: center;
-  margin-bottom: 20px;
+  background: #1f232d;
+  color: white;
+  margin-bottom: 5px;
 }
 
-/* Botones */
-button {
+small {
+  font-size: 12px;
+  color: #999;
+}
+
+/* Botón adicional */
+#generate-another {
   padding: 12px 20px;
   font-size: 16px;
   color: white;
@@ -66,26 +129,17 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  margin: 10px 0;
   transition: background-color 0.3s ease;
+  margin-top: 15px;
 }
 
-button:hover {
+#generate-another:hover {
   background-color: #0056b3;
 }
 
-/* Cuadro de la contraseña */
-.password-box {
-  background: #f9f9f9;
-  padding: 10px 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin: 20px 0;
-  word-break: break-word;
-}
-
-#password {
-  font-size: 18px;
-  color: #555;
-  font-weight: 500;
+/* Footer */
+.footer {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
 }
