@@ -18,8 +18,8 @@ Para usar el generador de contraseñas, simplemente entra a la siguiente página
 
 ![Captura del Generador de Contraseñas](https://raw.githubusercontent.com/hamzab0ce/password_generator/refs/heads/main/image.jpg)
 
-## Acerca del Autor
 
-Este proyecto fue creado por **[https://github.com/hamzab0ce](#)**.  
+
+## by  **[hamzab0ce](https://github.com/hamzab0ce)**. 
 
 ---
