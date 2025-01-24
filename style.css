@@ -60,6 +60,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 15px; /* Espacio extra debajo de las configuraciones */
 }
 
 label {
@@ -89,4 +90,19 @@ label {
 
 #generate-btn:hover {
     background-color: #0056b3;
+}
+
+/* Estilo para el selector de idioma */
+#language-selector {
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#language-selector:hover {
+    background-color: #f9f9f9;
 }
