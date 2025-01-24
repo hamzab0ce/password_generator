@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>Generador de Contraseñas</h1>
+        <h1 id="title">Generador de Contraseñas</h1>
         
         <!-- Selector de idioma -->
         <div class="language-selector">
-            <label for="language-selector">Idioma:</label>
+            <label for="language-selector" id="language-label">Idioma:</label>
             <select id="language-selector">
                 <option value="es">Español</option>
                 <option value="en">English</option>
@@ -20,12 +20,15 @@
             </select>
         </div>
 
+        <!-- Contenedor de la contraseña -->
         <div class="password-container">
             <input type="text" id="password" readonly placeholder="Tu contraseña aparecerá aquí">
             <button id="copy-btn">Copiar</button>
         </div>
+
+        <!-- Configuraciones de generación -->
         <div class="settings">
-            <label for="length">Longitud:</label>
+            <label for="length" id="length-label">Longitud:</label>
             <input type="number" id="length" min="6" max="64" value="12">
             <button id="generate-btn">Generar</button>
         </div>
