@@ -23,6 +23,15 @@ h1 {
     margin-bottom: 20px;
 }
 
+.language-selector {
+    margin-bottom: 20px;
+}
+
+#language-selector {
+    padding: 5px;
+    font-size: 16px;
+}
+
 .password-container {
     display: flex;
     align-items: center;
@@ -60,7 +69,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 15px; /* Espacio extra debajo de las configuraciones */
+    margin-bottom: 20px;
 }
 
 label {
@@ -92,17 +101,9 @@ label {
     background-color: #0056b3;
 }
 
-/* Estilo para el selector de idioma */
-#language-selector {
-    padding: 8px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    background-color: #ffffff;
-    cursor: pointer;
-}
-
-#language-selector:hover {
-    background-color: #f9f9f9;
+/* Espacio adicional para el pie de página */
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555555;
 }
