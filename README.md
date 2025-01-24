@@ -1,7 +1,7 @@
 # Generador de Contraseñas
 
-[![Inglés](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png)](README_en.md) **Inglés**  
-[![Alemán](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png)](README_de.md) **Alemán**
+[![Inglés]🇬🇧](README_en.md) **Inglés**  
+[![Alemán]🇩🇪](README_de.md) **Alemán**
 
 Este es un generador de contraseñas que se puede usar en el navegador. Puedes elegir la longitud de la contraseña y copiarla al portapapeles fácilmente.
 
