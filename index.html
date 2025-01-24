@@ -9,6 +9,17 @@
 <body>
     <div class="container">
         <h1>Generador de Contraseñas</h1>
+        
+        <!-- Selector de idioma -->
+        <div class="language-selector">
+            <label for="language-selector">Idioma:</label>
+            <select id="language-selector">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+            </select>
+        </div>
+
         <div class="password-container">
             <input type="text" id="password" readonly placeholder="Tu contraseña aparecerá aquí">
             <button id="copy-btn">Copiar</button>
