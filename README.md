@@ -1,6 +1,6 @@
 # Generador de Contraseñas
 
-🇬🇧(README_en.md) **Inglés**  🇩🇪(README_de.md) **Alemán**
+[🇬🇧 **Inglés**](README_en.md)  [🇩🇪 **Alemán**](README_de.md)
 
 Este es un generador de contraseñas que se puede usar en el navegador. Puedes elegir la longitud de la contraseña y copiarla al portapapeles fácilmente.
 
