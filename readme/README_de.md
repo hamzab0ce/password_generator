@@ -1,8 +1,6 @@
 # Passwort-Generator
 
-[![Englisch](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png)](README_en.md) **Englisch**  
-[![Deutsch](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png)](README_de.md) **Deutsch**  
-[![Spanisch](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png)](README_es.md) **Español**
+[🇪🇸 **Spanisch**](https://github.com/hamzab0ce/password_generator)     [🇬🇧 **Englisch**](https://github.com/hamzab0ce/password_generator/blob/main/readme/README_en.md)
 
 Dies ist ein Passwort-Generator, der im Browser verwendet werden kann. Sie können die Passwortlänge wählen und es einfach in die Zwischenablage kopieren.
 
