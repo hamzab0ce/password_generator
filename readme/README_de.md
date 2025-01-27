@@ -1,6 +1,6 @@
 # Passwort-Generator
 
-[🇪🇸 **Spanisch**](https://github.com/hamzab0ce/password_generator)     [🇬🇧 **Englisch**](https://github.com/hamzab0ce/password_generator/blob/main/readme/README_en.md)
+[🇪🇸 **Español**](https://github.com/hamzab0ce/password_generator)     [🇬🇧 **English**](https://github.com/hamzab0ce/password_generator/blob/main/readme/README_en.md)
 
 Dies ist ein Passwort-Generator, der im Browser verwendet werden kann. Sie können die Passwortlänge wählen und es einfach in die Zwischenablage kopieren.
 
