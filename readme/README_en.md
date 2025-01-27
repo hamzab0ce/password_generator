@@ -1,8 +1,6 @@
 # Password Generator
 
-[![English](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png)](README_en.md) **English**  
-[![German](https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png)](README_de.md) **Deutsch**  
-[![Spanish](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png)](README_es.md) **Español**
+[🇪🇸 **Español**](https://github.com/hamzab0ce/password_generator)   [🇩🇪 **Deutsch**](https://github.com/hamzab0ce/password_generator/blob/main/readme/README_de.md)
 
 This is a password generator that can be used in your browser. You can choose the password length and easily copy it to the clipboard.
 
